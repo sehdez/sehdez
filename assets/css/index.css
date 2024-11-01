@@ -10819,6 +10819,7 @@ a.text-danger:hover, a.text-danger:focus {
 
 .text-light {
   color: #f8f9fa !important;
+  text-align: center;
 }
 
 a.text-light:hover, a.text-light:focus {
@@ -11067,6 +11068,7 @@ p {
 
 .card {
   margin-bottom: 30px;
+  max-width: 330px;
 }
 
 .card .card-header {
@@ -11086,7 +11088,27 @@ p {
 .card .card-body {
   font-size: 14px;
   color: #6c757d;
+  overflow-y: auto;
+  max-height: 630px;
 }
+
+.card .card-body::-webkit-scrollbar {
+  width: 2px; 
+}
+
+.card .card-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.card .card-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+.card .card-body:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
 
 .price-card {
   padding: 30px;
