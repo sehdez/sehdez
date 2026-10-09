@@ -24,7 +24,7 @@ I am a full-stack engineer with **6+ years of experience** in backend architectu
 ## The work I do
 
 **Business platforms**<br>
-Multi-tenant SaaS and B2B products for real day-to-day operations: customers, sites, assets, service orders, checklists, preventive plans, and access control. Manteo is an example of this kind of product.
+Multi-tenant SaaS and B2B products for real day-to-day operations: customers, sites, assets, service orders, checklists, preventive plans, and access control. [Manteo](https://manteo.sergiohdez.com/) is an example of this kind of product.
 
 **Scalable backend systems**<br>
 APIs, authentication and authorization, event-driven workflows, asynchronous processing, integrations, and high-volume data flows built to evolve with the product.
